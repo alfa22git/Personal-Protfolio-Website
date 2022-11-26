@@ -1,3 +1,84 @@
-h1{
-    color: brown;
+
+body{
+    margin: 0%;
 }
+
+.headerArea{
+    padding-left: 15px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.wlcomeTextLine{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.userName{
+    color: rgba(225, 77, 18, 0.709);
+    font-size: 35px;
+}
+
+
+.text_image_section{
+    display: flex;
+}
+
+.halfTextPart{
+    width: 50%;
+    background-color: rgb(194, 171, 141);
+    padding: 10px;
+    border: 4px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.halfTextPart h4{
+    font-size: 25px;
+}
+
+.halfTextPart p{
+    font-size: 20px;
+}
+
+.halfTextPart a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(212, 151, 46);
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.halfImagePart{
+width: 50%;
+background-color: rgb(203, 212, 79);
+padding: 8px;
+border: 4px;
+border-radius: 10px;
+margin-left: 15px;
+
+}
+
+.middleArea{
+    padding-left: 15px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+.experiencesSection{
+    display: flex;
+}
+
+.fullStackSection{
+    width: 50%;
+    background-color: darkgreen;
+}
+
+.webDevSection{
+    width: 50%;
+    background-color: indianred;
+}
+
